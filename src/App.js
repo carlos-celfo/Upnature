@@ -1,12 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
+import NavBar from './components/NavBar/Navbar';
+import 'bootstrap/dist/css/bootstrap.css';
+import Footer from './components/Footer/Footer';
+
+
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      
+    <div >
+    <NavBar />
+     {/* put your page here */}
+     <Footer />
     </div>
+
   );
 }
 
