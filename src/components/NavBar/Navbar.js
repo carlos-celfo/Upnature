@@ -6,12 +6,12 @@ import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
 function eNavBar() {
     return (
-        <div className="NavBar">
-            <Navbar variant="light" sticky="top" expand="sm" collapseOnSelect>
-            <Navbar.Brand>
-            <img src={''} alt="Favicon Logo Tree" width="40px" height="40px" />{' '}
+        <div className='NavBar'>
+            <Navbar variant="dark" sticky="top" expand="sm" collapseOnSelect>
+            <Navbar.Brand className='navbar-logo'> 
+            <img src={''} alt="Brand Favicon"/>
             Upnature
-        </Navbar.Brand>
+            </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse>
                     <Nav>
@@ -20,7 +20,7 @@ function eNavBar() {
                             <NavDropdown.Item href="#Teampage">Teampage</NavDropdown.Item>
                             <NavDropdown.Item href="#Theproject">The project</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#contact-us">Contact Us</Nav.Link>
+                        <Nav.Link href="#startnow">Start now!</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
