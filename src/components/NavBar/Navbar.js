@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './Navbar.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import Favicon from '../../images/faviconUpnature.png';
 
 
 function eNavBar() {
@@ -9,7 +10,7 @@ function eNavBar() {
         <div className='NavBar'>
             <Navbar variant="dark" sticky="top" expand="sm" collapseOnSelect>
             <Navbar.Brand className='navbar-logo'> 
-            <img src={''} alt="Brand Favicon"/>
+            <img src={Favicon} alt="Brand Favicon"/>
             Upnature
             </Navbar.Brand>
                 <Navbar.Toggle />
