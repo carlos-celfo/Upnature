@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from './Navbar.css';
+import NavBarStyling from './Navbar.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import Favicon from '../../images/faviconUpnature.png';
