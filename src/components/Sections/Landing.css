@@ -1,6 +1,6 @@
 .bgr-color {
     background-color:#ffffcc;
-    padding: 160px 0;
+    padding: 70px 0;
   }
   
   .section-container {
@@ -11,13 +11,13 @@
     display: flex;
     margin-right: -15px;
     margin-bottom: -15px;
-    margin-left: -15px;
+    margin-left: 70px;
     flex-wrap: wrap;
     align-content: stretch;
   }
   
   .col {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     padding-right: 15px;
     padding-left: 15px;
     flex: 1;
@@ -27,37 +27,44 @@
   
   .home__landing-text-wrapper {
     max-width: 540px;
-    padding-top: 0;
+    padding-top: 10;
     padding-bottom: 60px;
   }
   
   .top-line {
     color: #fd6f63;
-    font-size: 16px;
+    font-size: 25px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    margin-bottom: 25px;
+    line-height: 1.1;
+    
   }
   
   .heading {
-    margin-bottom: 24px;
-    font-size: 48px;
+    margin-bottom: 2px;
+    font-size: 56px;
+    font-weight: 100;
     line-height: 1.1;
     font-weight: 600;
     color: #0a6259;
+    text-transform:none;
   }
+  
   
   
   .description{
-    max-width: 440px;
+    
     margin-bottom: 35px;
-    font-size: 18px;
+    margin-top: 35px;
+    font-size: 22px;
     line-height: 24px;
+    font-style:italic;
   }
   
-.button{
+.button-lp{
     display:inline-block;
     padding:0.3em 1.2em;
     margin:0 0.1em 0.1em 0;
@@ -67,11 +74,15 @@
     text-decoration:none;
     font-family:'Roboto',sans-serif;
     font-weight:300;
+    font-size: 22px ;
     color:#ffffff;
     background-color: #fece63;
     text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
     text-align:center;
     transition: all 0.2s;
+    width: 300px;
+    height: fit-content;
+    
 }
 button:hover{
     border-color: rgb(248, 154, 30);
@@ -83,12 +94,17 @@ button:hover{
     margin:0.2em auto;
 }
 } 
-    
 
-.home__img-wrapper {
-    max-width: 555px;
+a, a:hover, a:active, a:visited {
+  text-decoration: none;
+  color: #fff
+}
+
+.img-wrapper {
+    max-width: 700px;
   }
-  
+
+
   .landing-img {
     max-width: 95%;
     margin-top: 0;
@@ -97,12 +113,7 @@ button:hover{
     padding-right: 0;
   }
   
-  img {
-    border: 5;
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
-  }
+ 
   
   @media screen and (max-width: 991px) {
     .section-container {

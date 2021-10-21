@@ -40,13 +40,15 @@ align-items: center;
 }
 
 .footer-contact-heading {
-  margin-bottom: 24px;
-  font-size: 24px;
+  margin-bottom: 15px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #0a6259;
 }
 
 .footer-contact-text {
   margin-bottom: 24px;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .footer-input {
@@ -93,21 +95,21 @@ a.button:hover{
   width: 100%;
   max-width: 1000px;
   display: flex;
-  justify-content:space-around;
+  justify-content:space-evenly;
 }
 
 .footer-link-wrapper {
   display: flex;
 }
 
-.footer-link-items {
+.footer-link-items a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 16px;
-  text-align: left;
+  margin: 0px;
   width: 160px;
-  box-sizing: border-box;
+  font-size: 20px;
+  color: rgb(44, 43, 43)
 }
 
 .footer-link-items h2 {
