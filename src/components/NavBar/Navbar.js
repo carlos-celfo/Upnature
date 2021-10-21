@@ -11,7 +11,7 @@ function eNavBar () {
             <Navbar variant="dark" sticky="top" expand="sm" collapseOnSelect>
             <Navbar.Brand className='navbar-logo'> 
             <img src={Favicon} alt="Brand Favicon"/>
-            <Nav.Link href='#Home' id='navbar-brandname'> Upnature </Nav.Link>
+            <Nav.Link href='#Home' id='navbar-brandname'> Upnature cool</Nav.Link>
             </Navbar.Brand>
             
                 <Navbar.Toggle />
