@@ -1,0 +1,12 @@
+.background-animals {
+  background-color: #143e6e;
+}
+
+.interior-animals {
+  display: flex;
+  justify-content: end;
+}
+
+.animal-info {
+  text-align: end;
+}
