@@ -4,21 +4,19 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import Favicon from '../../images/faviconUpnature.png';
 
-
-function eNavBar () {
+const eNavBar = () => {
     return (
-        <div className='NavBar'>
-            <Navbar variant="dark" sticky="top" expand="sm" collapseOnSelect>
-            <Navbar.Brand className='navbar-logo'> 
-            <img src={Favicon} alt="Brand Favicon"/>
-            <Nav.Link href='#Home' id='navbar-brandname'> Upnature </Nav.Link>
-            </Navbar.Brand>
+            <Navbar className='NavBar' variant="dark" sticky="top" expand="sm" collapseOnSelect>
+                <Navbar.Brand className='navbar-logo'> 
+                    <img src={Favicon} alt="Brand Favicon"/>
+                    <Nav.Link href='#Home' id='navbar-brandname'> Upnature </Nav.Link>
+                </Navbar.Brand>
             
                 <Navbar.Toggle />
-                <Navbar.Collapse>
+                <Navbar.Collapse className='justify-content-end'>
                     <Nav className='navbar-dropdown'>
                         <Nav.Link href="#Home">Home</Nav.Link>
-                        <NavDropdown title="About">
+                        <NavDropdown title="About" variant="light">
                             <NavDropdown.Item href="#Teampage">Teampage</NavDropdown.Item>
                             <NavDropdown.Item href="#Theproject">The project</NavDropdown.Item>
                         </NavDropdown>
@@ -26,7 +24,7 @@ function eNavBar () {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-        </div>
+        
     );
 }
 
