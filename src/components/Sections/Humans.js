@@ -11,7 +11,7 @@ function Humans() {
                 Now, capitalism forces us to keep on producing, keep on buying, to the illusion of creatings we don't need. Moreover, this created need is destroying wildlife, environments and also people less fortunate that are forced to work to create these objects we don’t need. In order to save the planet, we need to create a new relationship with ourselves and to other humans, and when we respect everyone, we will take action forever.
                 </p>
                 <div className></div>
-                <p className="button-line">If you wanna learn more <a href="https://left.eu/" target="_blank"><button>click here</button></a>
+                <p className="button-line">If you wanna learn more <a href="https://left.eu/" target="_blank"><button className="myButton">click here</button></a>
                 </p>
             </p>
         </div>
