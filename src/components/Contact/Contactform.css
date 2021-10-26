@@ -1,0 +1,33 @@
+.ContactForm{
+    background-color:#ffffcc;
+    padding: 70px 0;
+}
+
+.bt-submit {
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.1em 0.1em 0;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    color: #fff ; 
+    position: relative;
+    font-weight: 700;    font-size: 14px;
+    border-radius: 100px;
+    background: linear-graient(135deg, #FF305B, #f11946, #FF305B, #f95678, #f11946);
+    background-size: 400% 400%;
+    margin-top: 35px; 
+    background-color: #fece63;
+    width: 100%;
+    transition: all .5s ease;
+    height: 50px;
+    outline:none;
+} 
+
+.bt-submit:hover {
+    animation: gradient 8s ease infinite;
+    color: #fff;
+    border-color: rgb(248, 154, 30);
+
+}
+
+

@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import { Container, Row, Col , Form, } from 'react-bootstrap'; 
 import { useForm } from 'react-hook-form';
+import Contactform from './Contactform.css';
 
 
 const ContactForm =() =>{
@@ -10,14 +11,16 @@ const ContactForm =() =>{
         reset,
         formState: { errors }
     } = useForm ();
-
+    const [disabled, setDisabled] = useState(false);
     const onSubmit = async (data) =>{
         const { name, email, subject, message } = data;
-
         console.log ('Name: ', name);
         console.log ('Email: ', email);
         console.log ('Subject: ', subject);
         console.log ('Message: ', message);
+        setDisabled(true);
+        reset ();
+        alert('Your message has been sent successfully. We will contact you soon.');
     };
 
     return (
@@ -30,9 +33,9 @@ const ContactForm =() =>{
                                     <Form.Row>
                                     <Form.Group controlId="formGridName" className="col-sm-12 col-md-6">  
                                     <Form.Control
-                                    type="text"
-                                    placeholder="Name"
-                                    name="name"
+                                    type='text'
+                                    placeholder='Name'
+                                    name='name'
                                     {...register('name', {
                                             required: { value: true, message: 'Please enter your name'},
                                             maxLength: {
@@ -42,11 +45,11 @@ const ContactForm =() =>{
                                         })}
                                     /> {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
                                     </Form.Group>
-                                    <Form.Group controlId="formGridEmail" className="col-sm-12 col-md-6"> 
+                                    <Form.Group controlId='formGridEmail' className="col-sm-12 col-md-6"> 
                                     <Form.Control
-                                        type="email"
-                                        placeholder="email@gmail.com"
-                                        name="email" 
+                                        type='email'
+                                        placeholder='email@gmail.com'
+                                        name='email' 
                                         {...register('email', {
                                             required: true,
                                             pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
@@ -55,11 +58,11 @@ const ContactForm =() =>{
                                     <span className='errorMessage'>Please enter a valid email address</span>)}
                                 </Form.Group>
                                 </Form.Row>
-                                <Form.Group controlId="formGridSubject"> 
+                                <Form.Group controlId='formGridSubject'> 
                                 <Form.Control
-                                    type="text"
-                                    placeholder="What is the subject?"
-                                    name="subject"
+                                    type='text'
+                                    placeholder='What is the subject?'
+                                    name='subject'
                                     {...register('subject', {
                                             required: {
                                             value: true,
@@ -73,18 +76,18 @@ const ContactForm =() =>{
                                     />{errors.subject && (
                                     <span className='errorMessage'>{errors.subject.message}</span>)}
                                 </Form.Group>   
-                                <Form.Group controlId="exampleForm.message"> 
+                                <Form.Group controlId='exampleForm.message'> 
                                 <Form.Control
-                                    as="textarea"
-                                    rows="3"
-                                    placeholder="Message"
-                                    name="message"
+                                    as='textarea'
+                                    rows='3'
+                                    placeholder='Message'
+                                    name='message'
                                     {...register('message', {
                                                 required: true
                                     })}          
                                 />{errors.message && <span className='errorMessage'>Please enter a message</span>}
                             </Form.Group> 
-                            <button className="bt-submit" type="submit" >
+                            <button className='bt-submit' type='submit' >
                                 Send Message
                             </button>        
                                 
