@@ -1,31 +1,43 @@
 import React from 'react';
-import NavBarStyling from './Navbar.css';
+import NavBar from './Navbar.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import Favicon from '../../images/faviconUpnature.png';
+import { Link } from 'react-router-dom';
 
 const eNavBar = () => {
     return (
-            <Navbar className='NavBar' variant="dark" sticky="top" expand="sm" collapseOnSelect>
+        <Nav className='NavBar'>
+            <Navbar  variant="dark" sticky="top" expand="sm" collapseOnSelect>
                 <Navbar.Brand className='navbar-logo'> 
                     <img src={Favicon} alt="Brand Favicon"/>
-                    <Nav.Link href='#Home' id='navbar-brandname'> Upnature </Nav.Link>
-                </Navbar.Brand> 
 
-            
+                    <Nav.Link >
+                        <Link id='navbar-brandname' to='/'> Upnature </Link>
+                    </Nav.Link>
+                </Navbar.Brand>
+        
+
                 <Navbar.Toggle />
-                <Navbar.Collapse className='justify-content-end'>
+                <Navbar.Collapse>
                     <Nav className='navbar-dropdown'>
-                        <Nav.Link href="#Home">Home</Nav.Link>
-                        <NavDropdown title="About" variant="light">
+                        <Nav.Link>
+                            <Link to='/'> Home </Link>
+                        </Nav.Link>
+                        <NavDropdown title="About">
                             <NavDropdown.Item href="#Teampage">Teampage</NavDropdown.Item>
                             <NavDropdown.Item href="#Theproject">The project</NavDropdown.Item>
                         </NavDropdown>
-                        <button className='button'href="#startnow">Start now!</button>
+                        <Nav.Link>
+                        <Link to='/contact'> 
+                        Contact
+                        </Link>
+                        </Nav.Link>
+                        <button className='button'> Start now!</button>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-        
+        </Nav>
     );
 }
 
