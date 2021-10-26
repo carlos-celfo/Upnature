@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap");
+
 .background {
   background-image: url(../../images/naturebackground.jpg);
   width: 100%;
@@ -5,7 +7,9 @@
 }
 
 .nature-title {
-  font-size: 3em;
+  font-size: 4em;
+  font-family: "EB Garamond";
+  padding-top: 10px;
 }
 
 .nature-interior {
@@ -16,13 +20,18 @@
 .nature-info {
   text-align: end;
   margin-top: 3%;
-  margin-left: 40%;
+  margin-left: 47%;
   margin-right: 5%;
+  font-family: "EB Garamond";
+  line-height: 35px;
+  font-size: 2em;
 }
 
 .button-line {
-  display: flex;
-  justify-content: center;
+  font-family: "EB Garamond";
+  margin-left: 60%;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .myButton {
@@ -37,6 +46,7 @@
   padding: 16px 31px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #2f6627;
+  margin-bottom: 15px;
 }
 .myButton:hover {
   background-color: #5cbf2a;
