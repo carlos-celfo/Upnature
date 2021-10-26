@@ -2,19 +2,18 @@
 
 .NavBar {
     background: #0a6259;
-    height: 80px;
+    height: 75px;
     display: flex;
     align-items: center;
     font-size: 1.6rem;
     position: sticky;
     top: 0;
     z-index:999;
-    justify-content: center;
+   
     
 }
 
 .navbar-brand{
-    color: #fff;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -22,6 +21,12 @@
     align-items: center;
     
 }
+
+.justify-content-end {
+    justify-content: end;
+    color: black;
+}
+
 
 .navbar-brandlogo {
     inline-size: auto;
@@ -56,6 +61,11 @@ a.button:hover{
 border-color: rgb(248, 154, 30);
 }
 
+#dropdown {
+    color: black;
+    background-color: #0a6259;
+}
+
 @media all and (max-width:30em){
 a.lp-button{
 display:block;
@@ -65,12 +75,6 @@ margin:0.2em auto;
 
 
 
-
-
-.navbar-dropdown:active {
-    background: #0a6259;
-
-}
 
 
 }
