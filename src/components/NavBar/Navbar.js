@@ -11,11 +11,13 @@ const eNavBar = () => {
             <Navbar  variant="dark" sticky="top" expand="sm" collapseOnSelect>
                 <Navbar.Brand className='navbar-logo'> 
                     <img src={Favicon} alt="Brand Favicon"/>
+
                     <Nav.Link >
                         <Link id='navbar-brandname' to='/'> Upnature </Link>
                     </Nav.Link>
                 </Navbar.Brand>
         
+
                 <Navbar.Toggle />
                 <Navbar.Collapse>
                     <Nav className='navbar-dropdown'>
