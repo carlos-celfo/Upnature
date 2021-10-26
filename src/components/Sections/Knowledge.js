@@ -1,6 +1,5 @@
 import React from 'react';
 import './Knowledge.css';
-import naturebackground from '../../images/naturebackground.jpg';
 
 function Knowledge() {
     return (
