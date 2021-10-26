@@ -10,7 +10,8 @@ const eNavBar = () => {
                 <Navbar.Brand className='navbar-logo'> 
                     <img src={Favicon} alt="Brand Favicon"/>
                     <Nav.Link href='#Home' id='navbar-brandname'> Upnature </Nav.Link>
-                </Navbar.Brand>
+                </Navbar.Brand> 
+
             
                 <Navbar.Toggle />
                 <Navbar.Collapse className='justify-content-end'>

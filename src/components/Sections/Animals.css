@@ -1,28 +1,14 @@
-.background {
-  background-image: url(../../images/naturebackground.jpg);
-  width: 100%;
-  margin: 0 auto;
+.background-animals {
+  background-color: #143e6e;
 }
 
-.nature-title {
-  font-size: 3em;
-}
-
-.nature-interior {
+.interior-animals {
   display: flex;
   justify-content: end;
 }
 
-.nature-info {
+.animal-info {
   text-align: end;
-  margin-top: 3%;
-  margin-left: 40%;
-  margin-right: 5%;
-}
-
-.button-line {
-  display: flex;
-  justify-content: center;
 }
 
 .myButton {
