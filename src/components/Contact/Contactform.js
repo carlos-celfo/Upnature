@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Container, Row, Col , Form, } from 'react-bootstrap'; 
 import { useForm } from 'react-hook-form';
 import Contactform from './Contactform.css';
-
+import UpNatureForm from './Contactform.service';
+import axios from "axios";
 
 const ContactForm =() =>{
     const {
@@ -12,17 +13,29 @@ const ContactForm =() =>{
         formState: { errors }
     } = useForm ();
     const [disabled, setDisabled] = useState(false);
-    const onSubmit = async (data) =>{
-        const { name, email, subject, message } = data;
-        console.log ('Name: ', name);
-        console.log ('Email: ', email);
-        console.log ('Subject: ', subject);
-        console.log ('Message: ', message);
-        setDisabled(true);
-        reset ();
-        alert('Your message has been sent successfully. We will contact you soon.');
-    };
+    {/*Dayo put the backend link here*/}
+     {/*  const formdata = new formdata();  
+    formdata.append('Name: ', fullName);
+    formdata.append('Email: ', email);
+    formdata.append('Subject: ', subject); 
+    formdata.append('Message: ', message);
 
+
+  const res = axios.post('http://localhost:9000/api/users/setProfilePic'), {
+        body: formdata,
+    };
+*/}
+   const onSubmit = async (data) =>{
+                const { name, email, subject, message } = data;
+                console.log ('Name: ', name);
+                console.log ('Email: ', email);
+                console.log ('Subject: ', subject);
+                console.log ('Message: ', message);
+                setDisabled(true);
+                reset ();
+                alert('Your message has been sent successfully. We will contact you soon.');
+            };
+            
     return (
         <div className='ContactForm'>
            <Container fluid>   
@@ -87,7 +100,8 @@ const ContactForm =() =>{
                                     })}          
                                 />{errors.message && <span className='errorMessage'>Please enter a message</span>}
                             </Form.Group> 
-                            <button className='bt-submit' type='submit' >
+                            <button className='bt-submit' type='submit' /*onClick={onSubmit}*/>
+                            
                                 Send Message
                             </button>        
                                 
