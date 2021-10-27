@@ -1,14 +1,35 @@
 .background-animals {
-  background-color: #143e6e;
+  background-image: url(../../images/waterbird.jpg);
+}
+
+.animals-title {
+  font-size: 4em;
+  font-family: "EB Garamond";
+  padding-top: 10px;
+  margin-right: 34%;
+}
+
+.info-animals {
+  text-align: center;
+  font-family: "EB Garamond";
+  line-height: 40px;
+  font-size: 2em;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 2%;
 }
 
 .interior-animals {
   display: flex;
-  justify-content: end;
+  flex-direction: row;
 }
 
-.animal-info {
-  text-align: end;
+.animal-icon {
+  margin-right: 5%;
+}
+
+.button-line {
+  margin-left: 40%;
 }
 
 .myButton {

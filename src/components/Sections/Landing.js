@@ -10,7 +10,7 @@ function Landing() {
           <div className='row'>
             <div className='col'>
               <div className='landing-text-wrapper'>
-                <div className='top-line'> You are tired of just talking about saving the earth? </div>
+                <div className='top-line'> Are you tired of just talking about saving the earth? </div>
                 <h1 className='heading'>Act now!</h1>
                 <h1 className='heading'>Do your part in making our future green </h1>
                 <p className= 'description'> Saving the environment is not choice anymore, it is a survival truth. 
