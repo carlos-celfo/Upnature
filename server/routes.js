@@ -1,12 +1,18 @@
-const express = require('express')
+const express = require("express");
+const postData = require("./controller");
 const router = express.Router();
 
-// Home page route.
-router.get('/', )
+// post form data.
+router.post("/data", postData.createData);
 
-// About page route.
-router.get('/about', function (req, res) {
-  res.send('About this wiki');
-})
+// get form data
+router.get("/data", postData.getData);
+
+
+// update
+
+// delete
 
 module.exports = router;
+
+// http://localhost:5000/form/data - route needed for front end to post
