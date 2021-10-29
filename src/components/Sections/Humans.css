@@ -1,9 +1,26 @@
 .background-humans {
-  color: #46c426;
+  background-image: url(../../images/large-group-people-on-white-background-people-vector-25536438.jpg);
+  background-size: cover;
 }
 
-h3 {
+.interior-humans {
+  display: flex;
+  justify-content: center;
+}
+
+.humans-title {
   text-align: center;
+  font-size: 4em;
+  font-family: "EB Garamond";
+}
+
+.humans-info {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  font-family: "EB Garamond";
+  line-height: 40px;
+  font-size: 2em;
 }
 
 .myButton {

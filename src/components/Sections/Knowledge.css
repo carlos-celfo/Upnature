@@ -10,6 +10,8 @@
   font-size: 4em;
   font-family: "EB Garamond";
   padding-top: 10px;
+  margin-left: 67%;
+  padding-top: 3%;
 }
 
 .nature-interior {
@@ -19,7 +21,7 @@
 
 .nature-info {
   text-align: end;
-  margin-top: 4%;
+  margin-top: 3%;
   margin-left: 47%;
   margin-right: 5%;
   font-family: "EB Garamond";
