@@ -33,7 +33,9 @@ const eNavBar = () => {
                         Contact
                         </Link>
                         </Nav.Link>
+                        <Link to='/form'>
                         <button className='button'> Start now!</button>
+                        </Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
