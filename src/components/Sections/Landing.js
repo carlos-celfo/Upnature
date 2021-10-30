@@ -1,6 +1,7 @@
 import React from 'react';
 import './Landing.css';
 import Landingimage from '../../images/Landingpicture.png';
+import { Link } from 'react-router-dom';
 
 function Landing() {
   return (
@@ -16,7 +17,7 @@ function Landing() {
                 <p className= 'description'> Saving the environment is not choice anymore, it is a survival truth. 
                 But while world leaders debate the best ways for nations to tackle climate change, we as the citizens can feel powerless and unsure how to play our own part.
                 But you don't have to: Let's come together and join hands in making the world a good place for generations to come. Find project dear and near to you or initate your own projects and find allies.    </p>
-                <a href='/linktoform' className='button-lp' type='button'>Start now!</a>
+                <Link to='/form' className='button-lp' type='button'>Start now!</Link>
                 </div>
             </div>
             <div className='col'>
