@@ -15,7 +15,7 @@ const Landing = () => {
                 <h1 className='heading'>
                 Do your part in making our future green 
                 </h1>
-                <p className= 'home__hero-subtitle'>
+                <p className= 'description'>
                 Saving the environment is not choice anymore, it is a survival truth. 
                 But while world leaders debate the best ways for nations to tackle climate change, we as the citizens can feel powerless and unsure how to play our own part.
                 But you don't have to: Let's come together and join hands in making the world a good place for generations to come. Find project dear and near to you or initate your own projects and find allies.
