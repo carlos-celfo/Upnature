@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Upnature/static/css/main.0566df79.chunk.css",
+    "main.js": "/Upnature/static/js/main.8afe68c5.chunk.js",
+    "main.js.map": "/Upnature/static/js/main.8afe68c5.chunk.js.map",
+    "runtime-main.js": "/Upnature/static/js/runtime-main.562b9d45.js",
+    "runtime-main.js.map": "/Upnature/static/js/runtime-main.562b9d45.js.map",
+    "static/css/2.8c0e6b67.chunk.css": "/Upnature/static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.8aa59c1a.chunk.js": "/Upnature/static/js/2.8aa59c1a.chunk.js",
+    "static/js/2.8aa59c1a.chunk.js.map": "/Upnature/static/js/2.8aa59c1a.chunk.js.map",
+    "index.html": "/Upnature/index.html",
+    "static/css/2.8c0e6b67.chunk.css.map": "/Upnature/static/css/2.8c0e6b67.chunk.css.map",
+    "static/css/main.0566df79.chunk.css.map": "/Upnature/static/css/main.0566df79.chunk.css.map",
+    "static/js/2.8aa59c1a.chunk.js.LICENSE.txt": "/Upnature/static/js/2.8aa59c1a.chunk.js.LICENSE.txt",
+    "static/media/Landingpicture.d70d7847.png": "/Upnature/static/media/Landingpicture.d70d7847.png",
+    "static/media/Humans.css": "/Upnature/static/media/large-group-people-on-white-background-people-vector-25536438.bba1284e.jpg",
+    "static/media/Knowledge.css": "/Upnature/static/media/naturebackground.bb5418a0.jpg",
+    "static/media/suportar.c3bd3277.png": "/Upnature/static/media/suportar.c3bd3277.png",
+    "static/media/Animals.css": "/Upnature/static/media/waterbird.e159f787.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.562b9d45.js",
+    "static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.8aa59c1a.chunk.js",
+    "static/css/main.0566df79.chunk.css",
+    "static/js/main.8afe68c5.chunk.js"
+  ]
+}
