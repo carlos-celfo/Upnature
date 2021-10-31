@@ -1,35 +1,14 @@
-Project Name
+Project Name: 
 Upnature
 
-Names
-Sandra Geißer 
-Carlos Agelvis
-Arif Akan
-Dayo Adedokun
-Lisa Heite
-
-
-Briefly describe the problem your solution should solve:
+Description: 
 80% of teenagers are passionate about making an impact on our planet, but do not learn how to in school (Source: Independent). This means that a lot of ideas dedicated to improving sustainability, will not be executed and thus go to waste. 
 
-
-Describe 4-5 main points of your solution: 
 With Upnature, we have designed a website that allows school children to learn about sustainability and get inspired. 
 Via the Forms on the website, pupils can also hand in their ideas on making an impact and get visible
 In turn, other visitors of the website can support these project ideas and make them come true.
 
-
-Briefly describe the solution’s impact on our overall project subject Sustainability:
 Upnature provides teenagers the opportunity to get inspired by information on sustainability as well as post their own ideas tackling today’s sustainability challenges, by gaining visibility and supporters to make their ideas come to life. We believe that every small action towards making the planet a better and more sustainable environment counts and want to give these actions a platform to be more effective. 
-
-
-GitHub Link
-https://github.com/carlos-celfo/Upnature
-
-
-Video Link
-https://www.youtube.com/channel/UCmih1JJFNzfw1I7Ir-raaYQ
-
 
 
 # Getting Started with Create React App
