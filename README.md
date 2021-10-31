@@ -1,6 +1,7 @@
 Project Name: 
 Upnature
 
+Description:
 80% of teenagers are passionate about making an impact on our planet, but do not learn how to in school (Source: Independent). This means that a lot of ideas dedicated to improving sustainability, will not be executed and thus go to waste. 
 
 With Upnature, we have designed a website that allows school children to learn about sustainability and get inspired. 
